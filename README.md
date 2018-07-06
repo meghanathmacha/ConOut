@@ -13,7 +13,7 @@ coin cluster stats factoextra dplyr corrplot
 ```
 
 ## File Structure 
-1. The `data/` contains the public datasets used in the paper and `code/` contains two jupyter notebooks. 
+1. The `data/` contains the public datasets used in the paper and `code/` contains two jupyter notebooks for each dataset. 
 2. The pre processed features and labels are stored in the serializable RDS format in the `data/` folder. The type of the feature (categorical/numerical) is stored in the `typevar.RDS`
 3. For a dataset, the `UnifiedMeasure` notebook (written in R) computes the unified measure and outputs the contexts and stores it as `context.RDS`
 4. The `IsoForest` notebook (written in python) incorporates the contexts generated and computes the AUPRC. 
