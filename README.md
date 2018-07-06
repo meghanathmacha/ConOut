@@ -1,6 +1,9 @@
 # ConOut
 Contextual Outlier Detection with Multiple Contexts. The work is accepted for publication and will appear in the proceedings of ECML PKDD 2018. 
 
+## Website
+https://cmuconout.github.io/  
+
 ## Requirements 
    * Requires [Jupyter](http://jupyter.org/) with R kernel to run the notebooks. Please follow this [guide](https://www.datacamp.com/community/blog/jupyter-notebook-r) if you are new to R.
    * Requires the following python packages:
